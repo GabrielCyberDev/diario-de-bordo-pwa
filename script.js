@@ -75,7 +75,15 @@ window.addEventListener("beforeinstallprompt", (event) => {
 
   deferredPrompt = event;
 
+  console.log("PWA pode ser instalado.");
+
   installBtn.hidden = false;
+});
+
+window.addEventListener("appinstalled", () => {
+  console.log("PWA instalado com sucesso.");
+
+  installBtn.hidden = true;
 });
 
 installBtn.addEventListener("click", async () => {

@@ -74,5 +74,7 @@ diario-de-bordo-pwa/
 
 ## Autor
 
+Gabriel Costa
+
 Projeto desenvolvido para fins acadêmicos como prática de Progressive Web Apps (PWA).
-:::
+::: 
