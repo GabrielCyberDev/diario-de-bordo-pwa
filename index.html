@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Diário de Bordo</title>
+
+  <meta name="theme-color" content="#2563eb">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>📘 Diário de Bordo</h1>
+
+<button id="installBtn" hidden>
+Instalar Aplicativo
+</button>
+
+</header>
+
+<main>
+
+<section class="form-container">
+
+<form id="entryForm">
+
+<input
+type="text"
+id="title"
+placeholder="Título"
+required
+>
+
+<textarea
+id="description"
+placeholder="Descrição"
+required
+></textarea>
+
+<input
+type="date"
+id="date"
+required
+>
+
+<button type="submit">
+Salvar Entrada
+</button>
+
+</form>
+
+</section>
+
+<section>
+
+<h2>Entradas</h2>
+
+<div id="entries"></div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
